@@ -16,16 +16,8 @@ The program provides a clean user interface, validates input, and demonstrates a
 - Input validation using `try/except`
 - Clean and modular code design
 
----
 
-## Usage
-
-Run the program using:
-
-```bash
-python main.py
-
-You will see a menu like this:
+## You will see a menu like this:
 
 Available options:
 1: Celsius → Fahrenheit
@@ -38,14 +30,14 @@ Available options:
 
 ---
 
-Example
+## Example
 Choose: 4
 Enter temperature in Celsius: 25
 Result: 298.15 Kelvin
 
 ---
 
-Project Structure
+## Project Structure
 
 .
 ├── main.py
@@ -53,7 +45,7 @@ Project Structure
 └── .gitignore
 ---
 
-How It Works
+## How It Works
 The program uses separate functions for each conversion:
 celsius_to_fahrenheit
 fahrenheit_to_celsius
@@ -66,7 +58,7 @@ The program runs in a loop until the user exits
 
 ---
 
-Concepts Used
+## Concepts Used
 
 Functional programming (conversion functions)
 Dictionary-based function mapping
@@ -75,13 +67,13 @@ Separation of logic from input/output
 Code reuse (composition of conversion functions)
 ---
 
-Requirements
+## Requirements
 
 * Python 3.x
 
 ---
 
-Changelog
+## Changelog
 feat: support Kelvin conversions (C↔K, F↔K)
 Add Kelvin conversion functions
 Extend CLI menu options
@@ -95,13 +87,13 @@ Initialize repository
 Add base project files
 ---
 
-Author
+## Author
 
 Ahmad Kitana
 
 ---
 
-Future Improvements
+## Future Improvements
 
 Add validation for physical constraints (e.g., Kelvin ≥ 0)
 Support command-line arguments using argparse
